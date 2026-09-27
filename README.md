@@ -3,19 +3,63 @@
 > **Your gallery, served fresh.**  
 > A private-by-design Android gallery and social feed that transforms your camera roll into an immersive feed, stories, reels, and pinboard — entirely on-device with zero cloud uploads.
 
-[![Android](https://img.shields.io/badge/Platform-Android%2010%2B%20(API%2029%E2%80%9337)-3DDC84?style=flat&logo=android&logoColor=white)](https://android.com)
-[![Kotlin](https://img.shields.io/badge/Kotlin-2.4-7F52FF?style=flat&logo=kotlin&logoColor=white)](https://kotlinlang.org)
-[![Compose](https://img.shields.io/badge/Jetpack%20Compose-Material%203%20Expressive-4285F4?style=flat&logo=jetpackcompose&logoColor=white)](https://developer.android.com/jetpack/compose)
-[![ML](https://img.shields.io/badge/On--Device%20ML-ML%20Kit%20%2B%20LiteRT-FF6F00?style=flat&logo=google&logoColor=white)](https://developers.google.com/ml-kit)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+[![Latest Release](https://img.shields.io/github/v/release/YashjitPal/Cuisine?style=for-the-badge&color=FF5722&logo=github)](https://github.com/YashjitPal/Cuisine/releases/latest)
+[![Download APK](https://img.shields.io/badge/Download-v1.0%20APK%20(21.9%20MB)-4CAF50?style=for-the-badge&logo=android&logoColor=white)](https://github.com/YashjitPal/Cuisine/releases/download/v1.0.0/Cuisine-v1.0.apk)
+[![Android](https://img.shields.io/badge/Android-10%2B%20(API%2029%E2%80%9337)-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://android.com)
+[![Jetpack Compose](https://img.shields.io/badge/Compose-M3%20Expressive-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)](https://developer.android.com/jetpack/compose)
+
+---
+
+## 🎨 Material 3 Expressive Icon Suite
+
+Cuisine features an authentic **Material 3 Expressive** adaptive icon with full Android 13+ dynamic wallpaper theming support:
+
+<p align="center">
+  <img src="docs/art/cuisine_icon_showcase.png" alt="Cuisine Material You Icon Showcase" width="100%" style="border-radius: 16px;" />
+</p>
+
+- **Porcelain Ivory Canvas**: Soft radial surface (`#FFFFF9F7` → `#FFFCE5DE`) matching Google Pixel first-party apps.
+- **Brand Mark (`Cookie9Sided`)**: Mathematically smooth cubic Bézier 9-lobed scalloped cookie with an expressive centered heart cutout.
+- **Flavour Gradient**: Sweeps through **Paprika Coral** (`#FFFF7347`), **Rose Berry** (`#FFD81B60`), and **Violet Plum** (`#FF8E24AA`).
+- **Dynamic Themed Icon**: Natively adapts to your wallpaper's color palette on Android 13, 14, 15, and 16.
+
+---
+
+## 📸 Screenshots
+
+<!-- Drop screenshots in docs/screenshots/ (feed.png, reels.png, pinboard.png, flavors.png) to display them here -->
+
+<table align="center">
+  <tr>
+    <td align="center" width="25%">
+      <b>Social Feed & Stories</b><br><br>
+      <img src="docs/screenshots/feed.png" alt="Feed & Stories" width="220" onerror="this.src='https://placehold.co/400x850/161b22/ff8a65?text=Feed+%26+Stories';" style="border-radius: 16px; border: 1px solid #30363d;" />
+    </td>
+    <td align="center" width="25%">
+      <b>Vertical Reels Player</b><br><br>
+      <img src="docs/screenshots/reels.png" alt="Reels Player" width="220" onerror="this.src='https://placehold.co/400x850/161b22/ff8a65?text=Reels+Player';" style="border-radius: 16px; border: 1px solid #30363d;" />
+    </td>
+    <td align="center" width="25%">
+      <b>Spatial Pinboard</b><br><br>
+      <img src="docs/screenshots/pinboard.png" alt="Spatial Pinboard" width="220" onerror="this.src='https://placehold.co/400x850/161b22/ff8a65?text=Pinboard';" style="border-radius: 16px; border: 1px solid #30363d;" />
+    </td>
+    <td align="center" width="25%">
+      <b>Theme & Flavours</b><br><br>
+      <img src="docs/screenshots/flavors.png" alt="Theme Flavors" width="220" onerror="this.src='https://placehold.co/400x850/161b22/ff8a65?text=Flavour+Themes';" style="border-radius: 16px; border: 1px solid #30363d;" />
+    </td>
+  </tr>
+</table>
+
+> [!TIP]
+> To add your own live screenshots, save four PNG files (`feed.png`, `reels.png`, `pinboard.png`, and `flavors.png`) into the [`docs/screenshots/`](docs/screenshots/) folder and commit them.
 
 ---
 
 ## ✨ Features
 
 - **📱 Local Social Feed**: Reimagines your camera roll as a rich, chronological social feed with likes, bookmarks, comments, and date-based stories.
-- **🎬 Reels**: Smooth vertical short-form video player powered by AndroidX Media3 ExoPlayer with gesture scrub, tap-to-pause, and volume toggle.
-- **👤 On-Device Face Recognition**: Automatically tags and clusters people across your photos using Google ML Kit Face Detection and a lightweight LiteRT MobileFaceNet embedding model. All inference runs locally on your hardware.
+- **🎬 Reels**: Smooth vertical video player powered by AndroidX Media3 ExoPlayer with gesture scrubbing, tap-to-pause, and volume toggles.
+- **👤 On-Device Face Recognition**: Automatically tags and clusters people across your photos using Google ML Kit Face Detection and a lightweight LiteRT MobileFaceNet embedding model. All inference runs locally on your device hardware.
 - **🎨 Material You & M3 Expressive**:
   - Full support for Android 12+ dynamic color extraction from your wallpaper.
   - 5 custom handcrafted palette flavors: **Paprika**, **Saffron**, **Basil**, **Blueberry**, and **Plum**.
@@ -29,9 +73,10 @@
 
 ## 📥 Download APK (v1.0)
 
-You can grab the latest compiled release APK directly from the [Releases](https://github.com/) section:
+Grab the compiled release APK directly from GitHub Releases:
 
-- **[Download Cuisine v1.0 APK](../../releases/latest)**
+- 🚀 **[Download Cuisine-v1.0.apk (Direct)](https://github.com/YashjitPal/Cuisine/releases/download/v1.0.0/Cuisine-v1.0.apk)**
+- 📦 **[View All Releases](https://github.com/YashjitPal/Cuisine/releases)**
 
 *Compatibility: Android 10 (API 29) through Android 16 (API 37+). Supported architectures: `arm64-v8a`, `x86_64`.*
 
@@ -41,15 +86,14 @@ You can grab the latest compiled release APK directly from the [Releases](https:
 
 Cuisine is built using modern Android engineering practices:
 
-| Component | Technology |
-|---|---|
-| **UI Framework** | [Jetpack Compose](https://developer.android.com/jetpack/compose) with Material 3 Expressive |
-| **Navigation** | [Navigation 3](https://developer.android.com/guide/navigation) (`androidx.navigation3`) |
-| **Video Playback** | [AndroidX Media3 ExoPlayer](https://developer.android.com/media/media3) |
-| **Image & Video Loading** | [Coil 3](https://coil-kt.github.io/coil/) |
-| **Machine Learning** | [Google ML Kit Face Detection](https://developers.google.com/ml-kit) + [LiteRT](https://ai.google.dev/edge/litert) (MobileFaceNet) |
-| **Vector Geometry** | [AndroidX Graphics Shapes](https://developer.android.com/reference/androidx/graphics/shapes/package-summary) |
-| **System Integration** | Splash Screen API, Edge-to-Edge window insets, Predictive Back navigation |
+| Component | Technology | Description |
+|---|---|---|
+| **UI Framework** | [Jetpack Compose](https://developer.android.com/jetpack/compose) | Declarative UI with Material 3 Expressive components |
+| **Navigation** | [Navigation 3](https://developer.android.com/guide/navigation) | Type-safe single-activity navigation architecture |
+| **Video Playback** | [AndroidX Media3 ExoPlayer](https://developer.android.com/media/media3) | High-performance hardware video playback engine |
+| **Image Loading** | [Coil 3](https://coil-kt.github.io/coil/) | Coroutine-first asynchronous image & video decoder |
+| **Machine Learning** | [Google ML Kit](https://developers.google.com/ml-kit) + [LiteRT](https://ai.google.dev/edge/litert) | On-device face detection + MobileFaceNet face clustering |
+| **Vector Geometry** | [AndroidX Graphics Shapes](https://developer.android.com/reference/androidx/graphics/shapes/package-summary) | Morphing organic polygons and expressive shapes |
 
 ---
 
@@ -62,10 +106,8 @@ Cuisine is built using modern Android engineering practices:
 
 ### Build Steps
 
-Clone the repository and compile the release APK:
-
 ```bash
-git clone https://github.com/<your-username>/Cuisine.git
+git clone https://github.com/YashjitPal/Cuisine.git
 cd Cuisine
 
 # Build the release APK
