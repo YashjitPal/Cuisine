@@ -1,57 +1,31 @@
-# Cuisine 🍽️✨
-
-> **Your gallery, served fresh.**  
-> A private-by-design Android gallery and social feed that transforms your camera roll into an immersive feed, stories, reels, and pinboard — entirely on-device with zero cloud uploads.
-
-[![Latest Release](https://img.shields.io/github/v/release/YashjitPal/Cuisine?style=for-the-badge&color=FF5722&logo=github)](https://github.com/YashjitPal/Cuisine/releases/latest)
-[![Download APK](https://img.shields.io/badge/Download-v1.0%20APK%20(21.9%20MB)-4CAF50?style=for-the-badge&logo=android&logoColor=white)](https://github.com/YashjitPal/Cuisine/releases/download/v1.0.0/Cuisine-v1.0.apk)
-[![Android](https://img.shields.io/badge/Android-10%2B%20(API%2029%E2%80%9337)-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://android.com)
-[![Jetpack Compose](https://img.shields.io/badge/Compose-M3%20Expressive-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)](https://developer.android.com/jetpack/compose)
-
----
-
-## 🎨 Material 3 Expressive Icon Suite
-
-Cuisine features an authentic **Material 3 Expressive** adaptive icon with full Android 13+ dynamic wallpaper theming support:
-
 <p align="center">
-  <img src="docs/art/cuisine_icon_showcase.png" alt="Cuisine Material You Icon Showcase" width="100%" style="border-radius: 16px;" />
+  <img src="docs/art/icon.png" alt="Cuisine Logo" width="136" height="136" />
 </p>
 
-- **Porcelain Ivory Canvas**: Soft radial surface (`#FFFFF9F7` → `#FFFCE5DE`) matching Google Pixel first-party apps.
-- **Brand Mark (`Cookie9Sided`)**: Mathematically smooth cubic Bézier 9-lobed scalloped cookie with an expressive centered heart cutout.
-- **Flavour Gradient**: Sweeps through **Paprika Coral** (`#FFFF7347`), **Rose Berry** (`#FFD81B60`), and **Violet Plum** (`#FF8E24AA`).
-- **Dynamic Themed Icon**: Natively adapts to your wallpaper's color palette on Android 13, 14, 15, and 16.
+<h1 align="center">Cuisine</h1>
+
+<p align="center">
+  <b>Your gallery, served fresh.</b><br>
+  A private-by-design Android gallery and social feed that transforms your camera roll into an immersive feed, stories, reels, and pinboard — entirely on-device with zero cloud uploads.
+</p>
+
+<p align="center">
+  <a href="https://github.com/YashjitPal/Cuisine/releases/latest"><img src="https://img.shields.io/github/v/release/YashjitPal/Cuisine?style=for-the-badge&color=FF5722&logo=github" alt="Latest Release" /></a>
+  <a href="https://github.com/YashjitPal/Cuisine/releases/download/v1.0.0/Cuisine-v1.0.apk"><img src="https://img.shields.io/badge/Download-v1.0%20APK%20(21.9%20MB)-4CAF50?style=for-the-badge&logo=android&logoColor=white" alt="Download APK" /></a>
+  <img src="https://img.shields.io/badge/Android-10%2B%20(API%2029%E2%80%9337)-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android Version" />
+  <img src="https://img.shields.io/badge/Compose-M3%20Expressive-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white" alt="Compose" />
+</p>
 
 ---
 
 ## 📸 Screenshots
 
-<!-- Drop screenshots in docs/screenshots/ (feed.png, reels.png, pinboard.png, flavors.png) to display them here -->
+*(Screenshots coming soon)*
 
-<table align="center">
-  <tr>
-    <td align="center" width="25%">
-      <b>Social Feed & Stories</b><br><br>
-      <img src="docs/screenshots/feed.png" alt="Feed & Stories" width="220" onerror="this.src='https://placehold.co/400x850/161b22/ff8a65?text=Feed+%26+Stories';" style="border-radius: 16px; border: 1px solid #30363d;" />
-    </td>
-    <td align="center" width="25%">
-      <b>Vertical Reels Player</b><br><br>
-      <img src="docs/screenshots/reels.png" alt="Reels Player" width="220" onerror="this.src='https://placehold.co/400x850/161b22/ff8a65?text=Reels+Player';" style="border-radius: 16px; border: 1px solid #30363d;" />
-    </td>
-    <td align="center" width="25%">
-      <b>Spatial Pinboard</b><br><br>
-      <img src="docs/screenshots/pinboard.png" alt="Spatial Pinboard" width="220" onerror="this.src='https://placehold.co/400x850/161b22/ff8a65?text=Pinboard';" style="border-radius: 16px; border: 1px solid #30363d;" />
-    </td>
-    <td align="center" width="25%">
-      <b>Theme & Flavours</b><br><br>
-      <img src="docs/screenshots/flavors.png" alt="Theme Flavors" width="220" onerror="this.src='https://placehold.co/400x850/161b22/ff8a65?text=Flavour+Themes';" style="border-radius: 16px; border: 1px solid #30363d;" />
-    </td>
-  </tr>
-</table>
-
-> [!TIP]
-> To add your own live screenshots, save four PNG files (`feed.png`, `reels.png`, `pinboard.png`, and `flavors.png`) into the [`docs/screenshots/`](docs/screenshots/) folder and commit them.
+<!-- 
+Drop your app screenshots into docs/screenshots/ (feed.png, reels.png, pinboard.png, flavors.png)
+to showcase them here later.
+-->
 
 ---
 
