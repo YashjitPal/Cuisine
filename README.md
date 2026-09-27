@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/art/icon.png" alt="Cuisine Logo" width="136" height="136" />
+  <img src="docs/art/cuisine_icon_dark.png" alt="Cuisine Logo" width="136" height="136" />
 </p>
 
 <h1 align="center">Cuisine</h1>
